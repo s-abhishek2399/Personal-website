@@ -3,8 +3,10 @@
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
 
 body {
-  background-color: black;
+  background-color: rgb(5, 5, 12);
 }
+
+/* welcome to my portfolio */
 #welcome {
   color: whitesmoke;
   overflow: hidden;
@@ -52,5 +54,20 @@ span:nth-child(even) {
 @for $item from 1 through 21 {
   span:nth-of-type(#{$item}) {
     animation-delay: #{(3 + ($item/10))}s;
+  }
+}
+
+/* for mobile */
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  #welcome {
+    color: whitesmoke;
+    overflow: hidden;
+    font: 5vw/50vh "Finger Paint";
+    text-align: center;
+    color: transparent;
+    backface-visibility: hidden;
+    font-size: 24px;
   }
 }
