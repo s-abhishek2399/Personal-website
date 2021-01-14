@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
 
     <title>Portfolio</title>
   </head>
   <body>
     <!-- navbar -->
+
+    <div class="container">
+      <div class="logo">
+        <a href="#"
+          ><img
+            src="https://cdn0.iconfinder.com/data/icons/man-user-human-profile-business-person-avatar/100/05A-1User_1-512.png"
+            alt="logo"
+        /></a>
+      </div>
+      <div class="navbar">
+        <div class="icon-bar" onclick="Show()">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+
+        <ul id="nav-lists">
+          <li class="close"><span onclick="Hide()">×</span></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- navbar ended -->
 
     <!-- welcome to my portfolio -->
     <div id="welcome">
