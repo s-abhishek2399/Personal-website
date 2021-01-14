@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
 
 body {
-  background-color:	#f5f5f5;
+  background-color: #6f8197;
 }
 
 /* welcome to my portfolio */
@@ -88,7 +88,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  #f5f5f5
 }
 
 .container {
@@ -271,3 +270,22 @@ body {
 }
 
 /* navbar end */
+
+/* about me  */
+#abt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 300px;
+  border-radius: 30px;
+}
+
+#img1 {
+  margin-left: 150px;
+}
+
+/* #txt {
+  font: italic;
+  font-size: smaller;
+  font-family: cursive;
+  font-weight: 200px;
+} */
