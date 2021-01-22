@@ -279,11 +279,17 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 500px;
   margin: 30px;
+  height: 75vh;
+
   /* color: #0c2d48; */
 }
 
 #img1 {
-  margin-left: 110px;
+  width: 500px;
+  margin-left: 20%;
+  border-radius: 20px;
+  /* padding: 20px; */
+  height: 600px;
 }
 
 #txt {
