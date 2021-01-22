@@ -325,3 +325,97 @@ body {
 /* about me ended */
 
 /* project started */
+.projects {
+  background-color: #e3edf7;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.warper {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  height: 60vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+}
+.warper::-webkit-scrollbar {
+  width: 0;
+}
+.item {
+  cursor: pointer;
+  font-family: "Domine", serif;
+  letter-spacing: 0.2em;
+  font-size: medium;
+  margin-top: 2vh;
+  min-width: 50%;
+  margin-left: 10px;
+  height: 56vh;
+  line-height: 110px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba(245, 245, 245, 0.863);
+}
+.item:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px soid rgba(0, 0, 0, 0.01);
+}
+
+h3 {
+  line-height: 0;
+  font-size: 2em;
+}
+
+.txt {
+  cursor: none;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.item img {
+  padding-top: 3%;
+  height: 70%;
+  border-radius: 8px;
+}
+
+.round {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.round:hover {
+  background-color: rgba(63, 255, 5, 0.808);
+  color: black;
+}
+
+.previous {
+  position: absolute;
+  left: 5%;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  position: absolute;
+  right: 5%;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+/* project end/ */
