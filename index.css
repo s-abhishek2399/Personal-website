@@ -330,7 +330,7 @@ body {
 /* project started */
 .projects {
   background-color: #b1d4e0;
-  height: 80vh;
+  height: 86vh;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -411,17 +411,19 @@ h3 {
 
 .previous {
   position: absolute;
-  left: 5%;
+  left: 49%;
   background-color: #030303;
   color: rgb(255, 254, 254);
+  margin: -38px;
 }
 
 .next {
   position: absolute;
-  right: 5%;
+  right: 48%;
   background-color: #020202;
   color: rgb(241, 235, 235);
   size: 20px;
+  margin: -38px;
 }
 
 .round {
@@ -429,3 +431,12 @@ h3 {
 }
 
 /* project end/ */
+
+/* contact started  */
+.contacts {
+  background-color: #0f6f8f;
+  height: 20vh;
+  margin: 2px;
+  padding: 0;
+  width: 100%;
+}
