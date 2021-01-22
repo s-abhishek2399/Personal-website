@@ -435,13 +435,18 @@ h3 {
 /* contact started  */
 .contacts {
   background-color: #0f6f8f;
-  height: 20vh;
+  height: 23vh;
   margin: 2px;
   padding: 0;
   width: 100%;
 }
 
-#icon1 {
-  font-size: x-large;
+.cont {
+  text-align: center;
+  padding: 30px;
+  font-size: 77px;
   color: white;
+  cursor: pointer;
 }
+
+/* contact ended */
