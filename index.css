@@ -330,7 +330,7 @@ body {
 /* project started */
 .projects {
   background-color: #b1d4e0;
-  height: 60vh;
+  height: 89vh;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -338,8 +338,8 @@ body {
 .warper {
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 50px;
-  height: 35vh;
+  margin-top: 60px;
+  height: 59vh;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
@@ -355,12 +355,13 @@ body {
   margin-top: 2vh;
   min-width: 50%;
   margin-left: 10px;
-  height: 56vh;
+  height: 50vh;
   line-height: 110px;
   text-align: center;
   border-radius: 8px;
-  background-color: #0c2d48;
+  background-color: #c9ddee;
 }
+
 .item:hover {
   box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
     inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
@@ -371,7 +372,11 @@ body {
 
 h3 {
   line-height: 0;
-  font-size: 2em;
+  font-size: 3em;
+  /* margin-bottom: 20px; */
+  color: rgb(17, 11, 11);
+  text-decoration-line: none;
+  font-family: monospace;
 }
 
 .txt {
@@ -407,15 +412,16 @@ h3 {
 .previous {
   position: absolute;
   left: 5%;
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #030303;
+  color: rgb(255, 254, 254);
 }
 
 .next {
   position: absolute;
   right: 5%;
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #020202;
+  color: rgb(241, 235, 235);
+  size: 20px;
 }
 
 .round {
