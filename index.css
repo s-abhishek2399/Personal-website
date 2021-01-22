@@ -330,7 +330,7 @@ body {
 /* project started */
 .projects {
   background-color: #b1d4e0;
-  height: 80vh;
+  height: 60vh;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -339,7 +339,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 50px;
-  height: 60vh;
+  height: 35vh;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
@@ -349,7 +349,7 @@ body {
 }
 .item {
   cursor: pointer;
-  font-family: "Domine", serif;
+  font-family: cursive;
   letter-spacing: 0.2em;
   font-size: medium;
   margin-top: 2vh;
