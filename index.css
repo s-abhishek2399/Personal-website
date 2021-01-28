@@ -70,6 +70,7 @@ span:nth-child(even) {
     color: transparent;
     backface-visibility: hidden;
     font-size: 24px;
+    margin-top: 1px;
   }
 }
 
@@ -216,6 +217,7 @@ body {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    /* color: white; */
   }
 
   .container .navbar {
@@ -280,8 +282,6 @@ body {
   grid-auto-rows: 500px;
   margin: 30px;
   height: 75vh;
-
-  /* color: #0c2d48; */
 }
 
 #img1 {
@@ -459,3 +459,118 @@ i {
   color: white;
 }
 /* contact ended */
+
+/* desktop version completed */
+
+/* mobile version started */
+@media screen and (max-width: 768px) {
+  .container .logo a img {
+    max-width: 100%;
+    max-height: 60px;
+    padding: 0 2px;
+  }
+
+  .projects {
+    background-color: #b1d4e0;
+    height: 86vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .warper {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 60px;
+    height: 59vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+  }
+  .warper::-webkit-scrollbar {
+    width: 0;
+  }
+  .item {
+    cursor: pointer;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    font-size: medium;
+    margin-top: 2vh;
+    min-width: 100%;
+    margin-left: 10px;
+    height: 50vh;
+
+    line-height: 110px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #c9ddee;
+  }
+
+  .item:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px soid rgba(0, 0, 0, 0.01);
+  }
+
+  h3 {
+    line-height: 0;
+    font-size: 3em;
+    /* margin-bottom: 20px; */
+    color: rgb(17, 11, 11);
+    text-decoration-line: none;
+    font-family: monospace;
+  }
+
+  .txt {
+    cursor: none;
+    font-family: cursive;
+    letter-spacing: 0.3em;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+    color: rgb(17, 16, 16);
+    border: 3px solid whitesmoke;
+  }
+
+  .item img {
+    padding-top: 3%;
+    height: 50%;
+    border-radius: 8px;
+  }
+
+  .round {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+
+  .round:hover {
+    background-color: rgba(63, 255, 5, 0.808);
+    color: black;
+  }
+
+  .previous {
+    position: absolute;
+    left: 49%;
+    background-color: #030303;
+    color: rgb(255, 254, 254);
+    margin: -38px;
+  }
+
+  .next {
+    position: absolute;
+    right: 48%;
+    background-color: #020202;
+    color: rgb(241, 235, 235);
+    size: 20px;
+    margin: -38px;
+  }
+
+  .round {
+    border-radius: 50%;
+  }
+}
