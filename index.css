@@ -540,37 +540,4 @@ i {
     height: 50%;
     border-radius: 8px;
   }
-
-  .round {
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    padding: 8px 16px;
-  }
-
-  .round:hover {
-    background-color: rgba(63, 255, 5, 0.808);
-    color: black;
-  }
-
-  .previous {
-    position: absolute;
-    left: 49%;
-    background-color: #030303;
-    color: rgb(255, 254, 254);
-    margin: -38px;
-  }
-
-  .next {
-    position: absolute;
-    right: 48%;
-    background-color: #020202;
-    color: rgb(241, 235, 235);
-    size: 20px;
-    margin: -38px;
-  }
-
-  .round {
-    border-radius: 50%;
-  }
 }
